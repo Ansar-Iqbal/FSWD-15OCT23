@@ -1,0 +1,173 @@
+body{
+    border: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    text-transform: capitalize;
+}
+
+nav button{
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    padding: 0.8rem;
+    gap: 1rem;
+    
+}
+
+/* .signup{
+    background-color: teal;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;   
+}
+
+.buttons{
+    gap: 2rem;
+} */
+
+
+.title-section{
+    width: 300px;
+    height: 500px;
+    /* background-color: aqua; */
+    border-radius: 20px;
+    gap: 2rem;
+    text-align: center;
+}
+
+
+main{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    /* background-color: burlywood; */
+    gap: 2rem;
+    text-align: justify;
+    height:80% ;
+}
+
+main img{
+    margin: center;
+    display: block;
+}
+
+main h1{
+    color: teal;
+}
+main h3{
+    color: rgb(2, 34, 34);
+    font-weight: 200px;
+    
+}
+
+main button{
+    /* background-color: teal; */
+    /* border: none; */
+    border-radius: 10px;
+    padding: 0.3rem;
+    gap: 5rem;
+    border: none;
+    width: 100%;
+    margin-bottom: 1px ;
+}
+
+main button:nth-child(1){
+    background-color: teal;
+    color: white ;
+    font-weight: 500;
+}
+
+main button:nth-child(2){
+    background-color: transparent;
+    color: black ;
+    font-weight: 500;
+    border-color: teal;
+    border: 1px solid teal;
+    padding: 5px;
+    transition: all 0.9s;
+    font-weight: 500;
+    cursor: pointer;
+
+    
+}
+
+main button:nth-child(2):hover{
+    background-color: teal;
+    color: white;
+
+}
+
+main p{
+    text-align: justify;
+    padding: 20px;
+    margin: auto;
+}
+
+.title-images img{
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+}
+
+hr{
+    width: 100px;
+    height: 0.5rem;
+    background-color: teal;
+}
+
+.star-section{
+    background-color: teal;
+    width: 10%;
+    height: 1.6px;
+    position: relative;
+    margin: auto;
+}
+
+.start{
+    position: absolute;
+    background-color: brown;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+}
+
+.start2{
+    position: absolute;
+    background-color: brown;
+    width: 20px;
+    height: 20px;
+    left: 0%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+}
+
+.start3{
+    position: absolute;
+    background-color: brown;
+    width: 20px;
+    height: 20px;
+    left: 70%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+}
